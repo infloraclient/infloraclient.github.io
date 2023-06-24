@@ -15,9 +15,11 @@ Simply just go to https://infloraclient.github.io/# and click launch, and you sh
 ### Contributors: 
 
 Monkeyghg, The Founder of Inflora-Client, and made the features of the Client!
+
 Discord: monkeyghg
 
 Woody, made the UI & GUI and the website itself.
+
 Discord: dontgotosleep
 
 
