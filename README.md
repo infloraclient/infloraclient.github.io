@@ -1,4 +1,4 @@
-# infloraclient
+# Inflora-Client
 Website for the popular Eagler Client called Inflora Client!
 
 ## What is it?
