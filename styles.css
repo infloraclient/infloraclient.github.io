@@ -92,21 +92,21 @@ content {
     border-top: 1px solid rgba(13,13,13);
     border-left: 1px solid rgba(13,13,13);
     padding: 40px;
-    background: #0d0d0a;
+    background: #0d0d0d;
     padding-left: 110px;
 }
 .content h2
 {
     font-size: 3em;  
     color: #db4f4f;
-    background: #0d0d0a;
+    background: #0d0d0d;
 
 }
 .content p
 {
     font-size: 1.2em; 
     color: #db4f4f;
-    background: #0d0d0a;
+    background: #0d0d0d;
 }
 .content a
 {
