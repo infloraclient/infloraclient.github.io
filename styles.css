@@ -33,8 +33,7 @@ section
     align-items: center;  
     padding: 50px;
 }
-.container img
-{
+.container img {
 height: 370px;
 border-radius: 20px;
 }
