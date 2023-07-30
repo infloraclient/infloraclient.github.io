@@ -21,7 +21,7 @@ section
     background-position: center;  
     background-attachment: fixed;  
     padding: 50px;
-]
+}
 .container
 {
     position: relative;
@@ -35,16 +35,6 @@ section
     justify-content: space-between;
     align-items: center;  
     padding: 50px;
-}
-.container a {
-    display: inline-flex;
-    padding: 15px 30px;
-    color: #db4f4f;
-    margin: 10px;
-    border-radius: 30px;
-    font-size: 1.2em;
-    font-weight: 500;
-    text-decoration: none;
 }
 .container img {
 height: 370px;
@@ -117,7 +107,8 @@ content {
     color: #db4f4f;
     background: #0d0d0d;
 }
-.container a {
+.button
+{
     display: inline-flex;
     padding: 15px 30px;
     color: #db4f4f;
@@ -129,7 +120,7 @@ content {
     text-decoration: none;
     box-shadow: 0 5px 10px rgba(13,13,13);
 }
-.container a:hover {
+.button a:hover {
 background: #0a0a0a;
 }
 .container img
