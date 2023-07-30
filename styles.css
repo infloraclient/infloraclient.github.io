@@ -33,6 +33,10 @@ section
     align-items: center;  
     padding: 50px;
 }
+.container img
+{
+height: 370px;
+}
 header {
     position: absolute;
     top: -50px;
