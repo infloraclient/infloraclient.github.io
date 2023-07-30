@@ -33,18 +33,15 @@ section
     align-items: center;  
     padding: 50px;
 }
-header
-{
+header {
     position: absolute;
-    top: -40px;
+    top: -50px;
     right: 20px;
     left: 20px;
     padding: 20px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(13,13,13);
-    box-shadow: 0 15px 35px rgba(0,0,0);
     border-radius: 20px;
     backdrop-filter: blur(10px);
     border: 1px solid rgba(13,13,13);
@@ -116,6 +113,10 @@ header ul li a:hover,
     font-weight: 500;  
     text-decoration: none;
     box-shadow: 0 5px 10px rgba(13,13,13);
+}
+.content a:hover
+{
+background: #0a0a0a;
 }
 .imgBx img
 {
