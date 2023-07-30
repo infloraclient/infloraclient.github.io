@@ -36,6 +36,7 @@ section
 .container img
 {
 height: 370px;
+border-radius: 20px;
 }
 header {
     position: absolute;
