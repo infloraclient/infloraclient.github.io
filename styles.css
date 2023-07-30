@@ -50,6 +50,18 @@ section
 height: 370px;
 border-radius: 20px;
 }
+header {
+    position: absolute;
+    top: -50px;
+    right: 20px;
+    left: 20px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
 header .logo
 {
     color: #db4f4f;  
