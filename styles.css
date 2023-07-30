@@ -107,8 +107,7 @@ content {
     color: #db4f4f;
     background: #0d0d0d;
 }
-.button
-{
+.container a {
     display: inline-flex;
     padding: 15px 30px;
     color: #db4f4f;
@@ -120,7 +119,7 @@ content {
     text-decoration: none;
     box-shadow: 0 5px 10px rgba(13,13,13);
 }
-.button a:hover {
+.container a:hover {
 background: #0a0a0a;
 }
 .container img
