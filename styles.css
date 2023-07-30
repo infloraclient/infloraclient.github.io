@@ -83,15 +83,16 @@ header ul li a:hover,
     box-shadow: 0 5px 10px rgba(13,13,13);
 }
 content {
-    transform: translateX(-25px);
-    max-width: 700px;
+    transform: translateX(-100px);
+    max-width: 1200px;
     box-shadow: 0 15px 30px rgba(13,13,13);
     border-radius: 20px;
     backdrop-filter: blur(10px);
     border: 1px solid rgba(13,13,13);
     border-top: 1px solid rgba(13,13,13);
     border-left: 1px solid rgba(13,13,13);
-    padding: 80px;
+    padding: 40px;
+    background: #0a0a0a;
     padding-left: 110px;
 }
 .content h2
@@ -119,8 +120,7 @@ content {
     text-decoration: none;
     box-shadow: 0 5px 10px rgba(13,13,13);
 }
-.content a:hover
-{
+.content a:hover {
 background: #0a0a0a;
 }
 .imgBx img
