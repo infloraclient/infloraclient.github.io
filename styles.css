@@ -4,9 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;  
-    background-color: rgba(13,13,13);
-    background-image: url("https://cdn.discordapp.com/attachments/839610985388310609/1121605462907965460/Screenshot_2.png");
     font-family: 'Poppins', sans-serif;
+}
+body {
+box-sizing: border-box;  
+background-size: cover;  
+background-image: url("https://cdn.discordapp.com/attachments/839610985388310609/1121605462907965460/Screenshot_2.png");
 }
 section
 {
@@ -25,7 +28,7 @@ section
     width: calc(100% - 100px);
     /*min-height: calc(100vh - 280px);*/
     min-height: 300px;
-    background: rgba(13,13,13);
+    background: rgba(13, 13, 13);
     box-shadow: 0 15px 35px rgba(13,13,13);
     border-radius: 20px;
     display: flex;
@@ -48,9 +51,6 @@ header {
     align-items: center;
     border-radius: 20px;
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(13,13,13);
-    border-top: 1px solid rgba(13,13,13);
-    border-left: 1px solid rgba(13,13,13);
 }
 header .logo
 {
@@ -84,7 +84,7 @@ header ul li a:hover,
 }
 content {
     transform: translateX(-100px);
-    max-width: 1200px;
+    max-width: 1100px;
     box-shadow: 0 15px 30px rgba(13,13,13);
     border-radius: 20px;
     backdrop-filter: blur(10px);
@@ -92,7 +92,6 @@ content {
     border-top: 1px solid rgba(13,13,13);
     border-left: 1px solid rgba(13,13,13);
     padding: 40px;
-    background: #0d0d0d;
     padding-left: 110px;
 }
 .content h2
@@ -108,20 +107,20 @@ content {
     color: #db4f4f;
     background: #0d0d0d;
 }
-.content a
+.button
 {
-    display: inline-block;
-    padding: 15px 30px;  
-    background: #0d0d0d;  
+    display: inline-flex;
+    padding: 15px 30px;
     color: #db4f4f;
-    margin-top: 20px;  
-    border-radius: 30px;  
-    font-size: 1.2em;  
-    font-weight: 500;  
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 1.2em;
+    background: #0d0d0d;
+    font-weight: 500;
     text-decoration: none;
     box-shadow: 0 5px 10px rgba(13,13,13);
 }
-.content a:hover {
+.button a:hover {
 background: #0a0a0a;
 }
 .container img
