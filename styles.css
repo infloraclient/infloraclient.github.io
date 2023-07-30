@@ -124,7 +124,7 @@ content {
 .content a:hover {
 background: #0a0a0a;
 }
-.imgBx img
+.container img
 {
     max-width: 400px;
     animation: animate 5s linear infinite;
@@ -133,11 +133,11 @@ background: #0a0a0a;
 {
     0%,100%
     {
-        transform: translateY(50px);
+        transform: translateY(25px);
     }
     50%
     {
-        transform: translateY(100px);
+        transform: translateY(50px);
     }
 }
 .sci
