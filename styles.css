@@ -98,11 +98,13 @@ content {
 {
     font-size: 3em;  
     color: #db4f4f;
+    background: #0a0a0a;
 }
 .content p
 {
     font-size: 1.2em; 
     color: #db4f4f;
+    background: #0a0a0a;
 }
 .content a
 {
