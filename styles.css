@@ -83,9 +83,8 @@ header ul li a:hover,
     background: #0d0d0d;
     box-shadow: 0 5px 10px rgba(13,13,13);
 }
-.content
-{
-    transform: translateX(-100px);
+content {
+    transform: translateX(-25px);
     max-width: 700px;
     box-shadow: 0 15px 30px rgba(13,13,13);
     border-radius: 20px;
@@ -93,7 +92,7 @@ header ul li a:hover,
     border: 1px solid rgba(13,13,13);
     border-top: 1px solid rgba(13,13,13);
     border-left: 1px solid rgba(13,13,13);
-    padding: 40px;
+    padding: 80px;
     padding-left: 110px;
 }
 .content h2
