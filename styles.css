@@ -111,17 +111,18 @@ content {
 {
     display: inline-flex;
     padding: 15px 30px;
-    color: #db4f4f;
+    color: #0d0d0d;
     margin: 10px;
     border-radius: 30px;
     font-size: 1.2em;
-    background: #0d0d0d;
+    background: #db4f4f;
     font-weight: 500;
     text-decoration: none;
     box-shadow: 0 5px 10px rgba(13,13,13);
 }
-.button a:hover {
+.button:hover {
 background: #0a0a0a;
+color: #db4f4f;
 }
 .container img
 {
